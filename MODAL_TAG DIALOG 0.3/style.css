@@ -1,0 +1,132 @@
+/* Globais */
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+} 
+
+.background-gradiente {
+    background: linear-gradient(#efb312, #65480f);
+}
+    
+/* Header  */
+
+.header {
+    background-color:brown;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo {
+    height: 120px;
+    margin-left: 25px;
+}
+
+.header_menu {
+    text-align: right;
+    margin-right: 25px;
+    padding-top: 35px;
+}
+
+.header_menu .b {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.header_menu .home_ativo {
+    color: #FFC337;
+}
+
+.icones {
+    color: #FFC337;
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.header_menu a:hover {
+    color: #FFC337;
+}
+
+
+/* DIALOG */
+.login{
+    color: #fff;
+}
+dialog{ /*CAIXA DE DIALOGO (MODAL)*/
+    background-color: #c7982a;
+    background-image:url("/background.jpg") ;
+    background-size:cover;
+    padding: 20px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    top: 36%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+
+}
+.elementos{
+    margin: 40px;
+    display: grid;
+    place-items: center ;
+}
+
+.ancoras{
+    margin:10px;
+    display:flex;
+}
+.ancora{
+    font-size: 17px;
+    color: #fff;
+}
+.botoes{
+    margin: 20px;
+    display: block;
+}
+
+#abrirModal /*BOTÃO DE ABRIR (ICONE)*/{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+.btnModal{
+    margin-left: 50px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background-color: #FFC337;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    filter:drop-shadow(0px 0px 10px #35332b); /*ANIMAÇÃO DE CORES AO REDOR DA VIDA*/
+}
+.btnModal:hover{
+    background-color: #c7982a;
+    transform: scale(1.05);
+    opacity: 1;
+    filter:drop-shadow(0px 0px 10px #8a7f53);
+}
+/* TABLE */
+
+.caixaTexto{/*TEXTO ANTES DA CAIXA*/
+    font-size: 20px;
+    color: #fff;
+}
+.caixa{ /*BOX QUE VAI RECEBER ALGO*/
+    padding: 5px;
+    margin: 30px;
+    border-radius: 10px;
+
+}
+.cad{
+    margin-left: 20px;
+    color: #fff;
+}
